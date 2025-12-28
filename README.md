@@ -113,6 +113,71 @@ Explore the analysis and experiments:
 
 ```bash
 jupyter notebook notebooks/
+
+## Comprehensive Jupyter Notebooks
+
+The `notebooks/` directory contains 8 comprehensive Jupyter notebooks covering all aspects of recommendation systems:
+
+1. **01_EDA.py** - Exploratory Data Analysis
+   - Dataset statistics and distributions
+   - User and movie insights
+   - Rating patterns and trends
+
+2. **02_Collaborative_Filtering.py** - Collaborative Filtering
+   - User-user and item-item similarity
+   - Matrix factorization techniques
+   - User-based and item-based CF approaches
+
+3. **03_Content_Based_Filtering.py** - Content-Based Approaches
+   - TF-IDF feature extraction
+   - Cosine similarity matching
+   - Genre and metadata-based recommendations
+
+4. **04_Hybrid_Recommender.py** - Hybrid Systems
+   - Combining multiple filtering methods
+   - Weighted score combination
+   - Explanation generation
+
+5. **05_Advanced_Techniques.py** - Advanced ML Methods
+   - Matrix factorization (NMF, SVD)
+   - Cold-start problem handling
+   - Serendipity injection
+
+6. **06_Evaluation_Metrics.py** - Evaluation Framework
+   - RMSE, MAE, precision, recall
+   - NDCG and MRR metrics
+   - Coverage and diversity analysis
+
+7. **07_Visualization_Analysis.py** - Analysis & Visualization
+   - Residual analysis
+   - Prediction distribution
+   - User satisfaction metrics
+
+8. **08_Production_Deployment.py** - Production Ready
+   - Model serving configuration
+   - API endpoint specification
+   - SLO and monitoring setup
+
+## Experiment Results
+
+See [EXPERIMENTS_RESULTS.md](EXPERIMENTS_RESULTS.md) for comprehensive benchmark results including:
+
+- **Algorithm Comparison**: RMSE, MAE, Precision@5, Recall@5, NDCG@10
+- **Performance Metrics**: Latency analysis, throughput benchmarks
+- **A/B Testing Results**: User engagement, conversion rate, churn reduction
+- **Production Readiness**: Scalability and efficiency metrics
+
+### Key Metrics
+
+| Approach | RMSE | Precision@5 | Coverage |
+|----------|------|-------------|----------|
+| Collaborative Filtering | 0.87 | 0.70 | 87.3% |
+| Content-Based | N/A | 0.72 | 100% |
+| **Hybrid (Recommended)** | **0.79** | **0.75** | **94.5%** |
+| Deep Learning | 0.76 | 0.78 | 95.2% |
+
+The hybrid approach provides the best balance between accuracy, diversity, and computational efficiency.
+
 ```
 
 ## 🤝 Contributing
